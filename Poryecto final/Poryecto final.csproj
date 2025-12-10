@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{62BB7280-30AC-43F1-B002-0F548691A8F0}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Poryecto_final</RootNamespace>
+    <AssemblyName>Poryecto final</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAcercaDeAlejandro.cs" />
+    <Compile Include="FormAcercaDeAlejandro.Designer.cs">
+      <DependentUpon>FormAcercaDeAlejandro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAcercaDeAlexis.cs" />
+    <Compile Include="FormAcercaDeAlexis.Designer.cs">
+      <DependentUpon>FormAcercaDeAlexis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAcercaDeMaximus.cs" />
+    <Compile Include="FormAcercaDeMaximus.Designer.cs">
+      <DependentUpon>FormAcercaDeMaximus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAreaCuadrado.cs" />
+    <Compile Include="FormAreaCuadrado.Designer.cs">
+      <DependentUpon>FormAreaCuadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAreaRectangulo.cs" />
+    <Compile Include="FormAreaRectangulo.Designer.cs">
+      <DependentUpon>FormAreaRectangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAreaTriangulo.cs" />
+    <Compile Include="FormAreaTriangulo.Designer.cs">
+      <DependentUpon>FormAreaTriangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCelsiusFahrenheit.cs" />
+    <Compile Include="FormCelsiusFahrenheit.Designer.cs">
+      <DependentUpon>FormCelsiusFahrenheit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFactorial.cs" />
+    <Compile Include="FormFactorial.Designer.cs">
+      <DependentUpon>FormFactorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFibonacci.cs" />
+    <Compile Include="FormFibonacci.Designer.cs">
+      <DependentUpon>FormFibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKgLibras.cs" />
+    <Compile Include="FormKgLibras.Designer.cs">
+      <DependentUpon>FormKgLibras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKmMillas.cs" />
+    <Compile Include="FormKmMillas.Designer.cs">
+      <DependentUpon>FormKmMillas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPerimetroCircunferencia.cs" />
+    <Compile Include="FormPerimetroCircunferencia.Designer.cs">
+      <DependentUpon>FormPerimetroCircunferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPerimetroTrapecio.cs" />
+    <Compile Include="FormPerimetroTrapecio.Designer.cs">
+      <DependentUpon>FormPerimetroTrapecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs" />
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSegundosHoras.cs" />
+    <Compile Include="FormSegundosHoras.Designer.cs">
+      <DependentUpon>FormSegundosHoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVolumenCubo.cs" />
+    <Compile Include="FormVolumenCubo.Designer.cs">
+      <DependentUpon>FormVolumenCubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVolumenEsfera.cs" />
+    <Compile Include="FormVolumenEsfera.Designer.cs">
+      <DependentUpon>FormVolumenEsfera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVolumenPiramide.cs" />
+    <Compile Include="FormVolumenPiramide.Designer.cs">
+      <DependentUpon>FormVolumenPiramide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAcercaDeAlejandro.resx">
+      <DependentUpon>FormAcercaDeAlejandro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAcercaDeAlexis.resx">
+      <DependentUpon>FormAcercaDeAlexis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAcercaDeMaximus.resx">
+      <DependentUpon>FormAcercaDeMaximus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAreaCuadrado.resx">
+      <DependentUpon>FormAreaCuadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAreaRectangulo.resx">
+      <DependentUpon>FormAreaRectangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAreaTriangulo.resx">
+      <DependentUpon>FormAreaTriangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCelsiusFahrenheit.resx">
+      <DependentUpon>FormCelsiusFahrenheit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFactorial.resx">
+      <DependentUpon>FormFactorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFibonacci.resx">
+      <DependentUpon>FormFibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKgLibras.resx">
+      <DependentUpon>FormKgLibras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKmMillas.resx">
+      <DependentUpon>FormKmMillas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPerimetroCircunferencia.resx">
+      <DependentUpon>FormPerimetroCircunferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPerimetroTrapecio.resx">
+      <DependentUpon>FormPerimetroTrapecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSegundosHoras.resx">
+      <DependentUpon>FormSegundosHoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVolumenCubo.resx">
+      <DependentUpon>FormVolumenCubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVolumenEsfera.resx">
+      <DependentUpon>FormVolumenEsfera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVolumenPiramide.resx">
+      <DependentUpon>FormVolumenPiramide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MAXIMUS\principal\Boleta\Boleta\Boleta.csproj">
+      <Project>{9444226F-1E74-4DAB-9625-78265A4CA1EC}</Project>
+      <Name>Boleta</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
