@@ -53,35 +53,40 @@ namespace Poryecto_final
 			// 
 			// txtLado1
 			// 
-			this.txtLado1.Location = new System.Drawing.Point(131, 27);
+			this.txtLado1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtLado1.Location = new System.Drawing.Point(142, 27);
 			this.txtLado1.Name = "txtLado1";
-			this.txtLado1.Size = new System.Drawing.Size(100, 22);
+			this.txtLado1.Size = new System.Drawing.Size(100, 27);
 			this.txtLado1.TabIndex = 0;
 			// 
 			// txtLado2
 			// 
-			this.txtLado2.Location = new System.Drawing.Point(131, 60);
+			this.txtLado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtLado2.Location = new System.Drawing.Point(142, 60);
 			this.txtLado2.Name = "txtLado2";
-			this.txtLado2.Size = new System.Drawing.Size(100, 22);
+			this.txtLado2.Size = new System.Drawing.Size(100, 27);
 			this.txtLado2.TabIndex = 1;
 			// 
 			// txtBaseMayor
 			// 
-			this.txtBaseMayor.Location = new System.Drawing.Point(131, 94);
+			this.txtBaseMayor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtBaseMayor.Location = new System.Drawing.Point(142, 94);
 			this.txtBaseMayor.Name = "txtBaseMayor";
-			this.txtBaseMayor.Size = new System.Drawing.Size(100, 22);
+			this.txtBaseMayor.Size = new System.Drawing.Size(100, 27);
 			this.txtBaseMayor.TabIndex = 2;
 			// 
 			// txtBaseMenor
 			// 
-			this.txtBaseMenor.Location = new System.Drawing.Point(131, 131);
+			this.txtBaseMenor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtBaseMenor.Location = new System.Drawing.Point(142, 131);
 			this.txtBaseMenor.Name = "txtBaseMenor";
-			this.txtBaseMenor.Size = new System.Drawing.Size(100, 22);
+			this.txtBaseMenor.Size = new System.Drawing.Size(100, 27);
 			this.txtBaseMenor.TabIndex = 3;
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(25, 26);
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(12, 26);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 4;
@@ -89,7 +94,8 @@ namespace Poryecto_final
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(25, 59);
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(12, 60);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 5;
@@ -97,35 +103,39 @@ namespace Poryecto_final
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(25, 97);
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(12, 98);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(124, 23);
 			this.label3.TabIndex = 6;
 			this.label3.Text = "BaseMayor:";
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(25, 131);
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(12, 131);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(100, 23);
+			this.label4.Size = new System.Drawing.Size(124, 23);
 			this.label4.TabIndex = 7;
 			this.label4.Text = "BaseMenor:";
 			// 
 			// lblResultado
 			// 
-			this.lblResultado.Location = new System.Drawing.Point(25, 176);
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblResultado.Location = new System.Drawing.Point(12, 176);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(219, 23);
 			this.lblResultado.TabIndex = 8;
 			this.lblResultado.Text = "Resultado:";
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
 			this.btnCalcular.Location = new System.Drawing.Point(82, 225);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 29);
+			this.btnCalcular.Size = new System.Drawing.Size(101, 29);
 			this.btnCalcular.TabIndex = 9;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;

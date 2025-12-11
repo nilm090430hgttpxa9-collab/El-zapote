@@ -44,15 +44,17 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(31, 22);
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(12, 23);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(119, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Kilometros:";
 			// 
 			// lblResultado
 			// 
-			this.lblResultado.Location = new System.Drawing.Point(31, 62);
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblResultado.Location = new System.Drawing.Point(12, 62);
 			this.lblResultado.Name = "lblResultado";
 			this.lblResultado.Size = new System.Drawing.Size(206, 23);
 			this.lblResultado.TabIndex = 1;
@@ -60,11 +62,12 @@ namespace Poryecto_final
 			// 
 			// btnConvertir
 			// 
-			this.btnConvertir.BackColor = System.Drawing.Color.Black;
+			this.btnConvertir.BackColor = System.Drawing.Color.Red;
+			this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnConvertir.ForeColor = System.Drawing.Color.White;
-			this.btnConvertir.Location = new System.Drawing.Point(92, 102);
+			this.btnConvertir.Location = new System.Drawing.Point(91, 102);
 			this.btnConvertir.Name = "btnConvertir";
-			this.btnConvertir.Size = new System.Drawing.Size(75, 29);
+			this.btnConvertir.Size = new System.Drawing.Size(98, 29);
 			this.btnConvertir.TabIndex = 2;
 			this.btnConvertir.Text = "Convertir";
 			this.btnConvertir.UseVisualStyleBackColor = false;
@@ -72,9 +75,10 @@ namespace Poryecto_final
 			// 
 			// txtKilometros
 			// 
+			this.txtKilometros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtKilometros.Location = new System.Drawing.Point(137, 23);
 			this.txtKilometros.Name = "txtKilometros";
-			this.txtKilometros.Size = new System.Drawing.Size(100, 22);
+			this.txtKilometros.Size = new System.Drawing.Size(100, 27);
 			this.txtKilometros.TabIndex = 3;
 			// 
 			// FormKmMillas

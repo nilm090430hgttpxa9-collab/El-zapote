@@ -49,11 +49,12 @@ namespace Poryecto_final
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
-			this.btnCalcular.Location = new System.Drawing.Point(92, 139);
+			this.btnCalcular.Location = new System.Drawing.Point(90, 149);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 29);
+			this.btnCalcular.Size = new System.Drawing.Size(103, 29);
 			this.btnCalcular.TabIndex = 0;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;
@@ -61,20 +62,23 @@ namespace Poryecto_final
 			// 
 			// txtBase
 			// 
+			this.txtBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtBase.Location = new System.Drawing.Point(153, 24);
 			this.txtBase.Name = "txtBase";
-			this.txtBase.Size = new System.Drawing.Size(100, 22);
+			this.txtBase.Size = new System.Drawing.Size(100, 27);
 			this.txtBase.TabIndex = 1;
 			// 
 			// txtAltura
 			// 
+			this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtAltura.Location = new System.Drawing.Point(153, 52);
 			this.txtAltura.Name = "txtAltura";
-			this.txtAltura.Size = new System.Drawing.Size(100, 22);
+			this.txtAltura.Size = new System.Drawing.Size(100, 27);
 			this.txtAltura.TabIndex = 2;
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(47, 24);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -83,6 +87,7 @@ namespace Poryecto_final
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(47, 55);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -91,6 +96,7 @@ namespace Poryecto_final
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(47, 91);
 			this.lblResultado.Name = "lblResultado";
 			this.lblResultado.Size = new System.Drawing.Size(206, 23);

@@ -42,5 +42,7 @@ namespace Poryecto_final
                 double horas = seg / 3600.0;
                 lblResultado.Text = "Horas: " + horas.ToString("0.00");
 		}
+		
+	
 	}
 }

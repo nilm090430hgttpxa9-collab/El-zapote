@@ -73,6 +73,7 @@ namespace Poryecto_final
 			// menuStrip1
 			// 
 			this.menuStrip1.BackColor = System.Drawing.Color.Gray;
+			this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.aplicasionToolStripMenuItem,
 									this.areaToolStripMenuItem,
@@ -84,7 +85,7 @@ namespace Poryecto_final
 									this.aToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(1039, 28);
+			this.menuStrip1.Size = new System.Drawing.Size(1137, 31);
 			this.menuStrip1.TabIndex = 1;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -100,14 +101,14 @@ namespace Poryecto_final
 			// factorialToolStripMenuItem
 			// 
 			this.factorialToolStripMenuItem.Name = "factorialToolStripMenuItem";
-			this.factorialToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.factorialToolStripMenuItem.Size = new System.Drawing.Size(141, 24);
 			this.factorialToolStripMenuItem.Text = "Factorial";
 			this.factorialToolStripMenuItem.Click += new System.EventHandler(this.FactorialToolStripMenuItemClick);
 			// 
 			// fibonacciToolStripMenuItem
 			// 
 			this.fibonacciToolStripMenuItem.Name = "fibonacciToolStripMenuItem";
-			this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(141, 24);
 			this.fibonacciToolStripMenuItem.Text = "Fibonacci";
 			this.fibonacciToolStripMenuItem.Click += new System.EventHandler(this.FibonacciToolStripMenuItemClick);
 			// 
@@ -220,7 +221,7 @@ namespace Poryecto_final
 			// kmMillasToolStripMenuItem
 			// 
 			this.kmMillasToolStripMenuItem.Name = "kmMillasToolStripMenuItem";
-			this.kmMillasToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.kmMillasToolStripMenuItem.Size = new System.Drawing.Size(151, 24);
 			this.kmMillasToolStripMenuItem.Text = "km - Millas";
 			this.kmMillasToolStripMenuItem.Click += new System.EventHandler(this.KmMillasToolStripMenuItemClick);
 			// 
@@ -235,7 +236,7 @@ namespace Poryecto_final
 			// kgLibrasToolStripMenuItem
 			// 
 			this.kgLibrasToolStripMenuItem.Name = "kgLibrasToolStripMenuItem";
-			this.kgLibrasToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.kgLibrasToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
 			this.kgLibrasToolStripMenuItem.Text = "Kg - Libras";
 			this.kgLibrasToolStripMenuItem.Click += new System.EventHandler(this.KgLibrasToolStripMenuItemClick);
 			// 
@@ -250,7 +251,7 @@ namespace Poryecto_final
 			// cFToolStripMenuItem
 			// 
 			this.cFToolStripMenuItem.Name = "cFToolStripMenuItem";
-			this.cFToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.cFToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
 			this.cFToolStripMenuItem.Text = "°C - °F";
 			this.cFToolStripMenuItem.Click += new System.EventHandler(this.CFToolStripMenuItemClick);
 			// 
@@ -329,7 +330,7 @@ namespace Poryecto_final
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Gray;
-			this.ClientSize = new System.Drawing.Size(1039, 506);
+			this.ClientSize = new System.Drawing.Size(1137, 506);
 			this.Controls.Add(this.menuStrip1);
 			this.IsMdiContainer = true;
 			this.MainMenuStrip = this.menuStrip1;

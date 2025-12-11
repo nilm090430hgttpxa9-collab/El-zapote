@@ -47,21 +47,24 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(44, 30);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Radio";
+			this.label1.Text = "Radio:";
 			// 
 			// txtRadio
 			// 
+			this.txtRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtRadio.Location = new System.Drawing.Point(150, 27);
 			this.txtRadio.Name = "txtRadio";
-			this.txtRadio.Size = new System.Drawing.Size(100, 22);
+			this.txtRadio.Size = new System.Drawing.Size(100, 27);
 			this.txtRadio.TabIndex = 1;
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(44, 81);
 			this.lblResultado.Name = "lblResultado";
 			this.lblResultado.Size = new System.Drawing.Size(206, 23);
@@ -70,11 +73,12 @@ namespace Poryecto_final
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
 			this.btnCalcular.Location = new System.Drawing.Point(91, 133);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 32);
+			this.btnCalcular.Size = new System.Drawing.Size(99, 32);
 			this.btnCalcular.TabIndex = 3;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;

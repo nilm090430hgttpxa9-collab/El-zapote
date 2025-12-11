@@ -47,18 +47,20 @@ namespace Poryecto_final
 			// 
 			// txtLado
 			// 
+			this.txtLado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtLado.Location = new System.Drawing.Point(140, 30);
 			this.txtLado.Name = "txtLado";
-			this.txtLado.Size = new System.Drawing.Size(100, 22);
+			this.txtLado.Size = new System.Drawing.Size(103, 27);
 			this.txtLado.TabIndex = 0;
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
 			this.btnCalcular.Location = new System.Drawing.Point(94, 113);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 27);
+			this.btnCalcular.Size = new System.Drawing.Size(96, 27);
 			this.btnCalcular.TabIndex = 1;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;
@@ -66,17 +68,19 @@ namespace Poryecto_final
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(34, 67);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(251, 23);
 			this.lblResultado.TabIndex = 2;
 			this.lblResultado.Text = "Area:";
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(34, 29);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(87, 23);
 			this.label2.TabIndex = 3;
 			this.label2.Text = "Lado:";
 			// 

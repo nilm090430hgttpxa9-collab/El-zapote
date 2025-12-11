@@ -44,6 +44,7 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(27, 26);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -52,28 +53,31 @@ namespace Poryecto_final
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(27, 68);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(243, 23);
 			this.lblResultado.TabIndex = 1;
 			this.lblResultado.Text = "Fahrenheit:\r\n";
 			// 
 			// txtCelsius
 			// 
+			this.txtCelsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtCelsius.Location = new System.Drawing.Point(133, 23);
 			this.txtCelsius.Name = "txtCelsius";
-			this.txtCelsius.Size = new System.Drawing.Size(100, 22);
+			this.txtCelsius.Size = new System.Drawing.Size(90, 27);
 			this.txtCelsius.TabIndex = 2;
 			// 
 			// btnConvertir
 			// 
-			this.btnConvertir.BackColor = System.Drawing.Color.Black;
+			this.btnConvertir.BackColor = System.Drawing.Color.Red;
+			this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnConvertir.ForeColor = System.Drawing.Color.White;
-			this.btnConvertir.Location = new System.Drawing.Point(92, 110);
+			this.btnConvertir.Location = new System.Drawing.Point(81, 110);
 			this.btnConvertir.Name = "btnConvertir";
-			this.btnConvertir.Size = new System.Drawing.Size(75, 30);
+			this.btnConvertir.Size = new System.Drawing.Size(98, 30);
 			this.btnConvertir.TabIndex = 3;
-			this.btnConvertir.Text = "Converti";
+			this.btnConvertir.Text = "Convertir";
 			this.btnConvertir.UseVisualStyleBackColor = false;
 			this.btnConvertir.Click += new System.EventHandler(this.BtnConvertirClick);
 			// 

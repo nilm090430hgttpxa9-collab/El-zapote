@@ -44,11 +44,12 @@ namespace Poryecto_final
 			// 
 			// btnConvertir
 			// 
-			this.btnConvertir.BackColor = System.Drawing.Color.Black;
+			this.btnConvertir.BackColor = System.Drawing.Color.Red;
+			this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnConvertir.ForeColor = System.Drawing.Color.White;
-			this.btnConvertir.Location = new System.Drawing.Point(94, 119);
+			this.btnConvertir.Location = new System.Drawing.Point(90, 119);
 			this.btnConvertir.Name = "btnConvertir";
-			this.btnConvertir.Size = new System.Drawing.Size(75, 27);
+			this.btnConvertir.Size = new System.Drawing.Size(103, 27);
 			this.btnConvertir.TabIndex = 0;
 			this.btnConvertir.Text = "Convertir";
 			this.btnConvertir.UseVisualStyleBackColor = false;
@@ -56,6 +57,7 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(29, 25);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -64,17 +66,19 @@ namespace Poryecto_final
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(29, 59);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(241, 23);
 			this.lblResultado.TabIndex = 2;
 			this.lblResultado.Text = "Horas:";
 			// 
 			// txtSegundos
 			// 
+			this.txtSegundos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtSegundos.Location = new System.Drawing.Point(135, 22);
 			this.txtSegundos.Name = "txtSegundos";
-			this.txtSegundos.Size = new System.Drawing.Size(100, 22);
+			this.txtSegundos.Size = new System.Drawing.Size(100, 27);
 			this.txtSegundos.TabIndex = 3;
 			// 
 			// FormSegundosHoras
