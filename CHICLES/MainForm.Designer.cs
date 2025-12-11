@@ -78,6 +78,7 @@ namespace CHICLES
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(60, 197);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -108,6 +109,7 @@ namespace CHICLES
 			// 
 			// label9
 			// 
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label9.Location = new System.Drawing.Point(166, 195);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(100, 23);
@@ -116,6 +118,7 @@ namespace CHICLES
 			// 
 			// label10
 			// 
+			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label10.Location = new System.Drawing.Point(272, 195);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(100, 23);
@@ -124,7 +127,7 @@ namespace CHICLES
 			// 
 			// btnAgregar
 			// 
-			this.btnAgregar.Location = new System.Drawing.Point(426, 231);
+			this.btnAgregar.Location = new System.Drawing.Point(426, 223);
 			this.btnAgregar.Name = "btnAgregar";
 			this.btnAgregar.Size = new System.Drawing.Size(75, 23);
 			this.btnAgregar.TabIndex = 19;
@@ -268,7 +271,7 @@ namespace CHICLES
 									"Postre Salado 2",
 									"",
 									"Postre Salado 3"});
-			this.cbProductos.Location = new System.Drawing.Point(322, 135);
+			this.cbProductos.Location = new System.Drawing.Point(284, 137);
 			this.cbProductos.Name = "cbProductos";
 			this.cbProductos.Size = new System.Drawing.Size(121, 24);
 			this.cbProductos.TabIndex = 33;
