@@ -268,7 +268,7 @@ namespace CHICLES
 									"Postre Salado 2",
 									"",
 									"Postre Salado 3"});
-			this.cbProductos.Location = new System.Drawing.Point(296, 136);
+			this.cbProductos.Location = new System.Drawing.Point(322, 135);
 			this.cbProductos.Name = "cbProductos";
 			this.cbProductos.Size = new System.Drawing.Size(121, 24);
 			this.cbProductos.TabIndex = 33;
