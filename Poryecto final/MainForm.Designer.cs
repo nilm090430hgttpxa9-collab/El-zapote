@@ -46,7 +46,7 @@ namespace Poryecto_final
 			// label1
 			// 
 			this.label1.BackColor = System.Drawing.Color.Black;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.White;
 			this.label1.Location = new System.Drawing.Point(12, 33);
 			this.label1.Name = "label1";
@@ -57,7 +57,7 @@ namespace Poryecto_final
 			// txtUsuario
 			// 
 			this.txtUsuario.BackColor = System.Drawing.Color.Black;
-			this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtUsuario.ForeColor = System.Drawing.Color.White;
 			this.txtUsuario.Location = new System.Drawing.Point(150, 33);
 			this.txtUsuario.Name = "txtUsuario";
@@ -67,7 +67,7 @@ namespace Poryecto_final
 			// label2
 			// 
 			this.label2.BackColor = System.Drawing.Color.Black;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.White;
 			this.label2.Location = new System.Drawing.Point(14, 72);
 			this.label2.Name = "label2";
@@ -78,7 +78,7 @@ namespace Poryecto_final
 			// txtPassword
 			// 
 			this.txtPassword.BackColor = System.Drawing.Color.Black;
-			this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtPassword.ForeColor = System.Drawing.Color.White;
 			this.txtPassword.Location = new System.Drawing.Point(150, 68);
 			this.txtPassword.Name = "txtPassword";
@@ -88,7 +88,7 @@ namespace Poryecto_final
 			// btnIngresar
 			// 
 			this.btnIngresar.BackColor = System.Drawing.Color.Black;
-			this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnIngresar.ForeColor = System.Drawing.Color.White;
 			this.btnIngresar.Location = new System.Drawing.Point(39, 116);
 			this.btnIngresar.Name = "btnIngresar";

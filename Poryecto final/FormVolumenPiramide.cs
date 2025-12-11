@@ -44,5 +44,7 @@ namespace Poryecto_final
             double volumen = (areaBase * altura) / 3.0;
             lblResultado.Text = "Volumen: " + volumen.ToString("0.00");
 		}
+		
+		
 	}
 }
