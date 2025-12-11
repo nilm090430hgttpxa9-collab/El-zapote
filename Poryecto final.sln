@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poryecto final", "Poryecto 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boleta", "..\..\MAXIMUS\principal\Boleta\Boleta\Boleta.csproj", "{9444226F-1E74-4DAB-9625-78265A4CA1EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evaluacion3", "..\..\..\..\Downloads\evaluacion3\evaluacion3\evaluacion3.csproj", "{718D7E9F-2CE7-46B9-937E-902108561B41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +22,9 @@ Global
 		{9444226F-1E74-4DAB-9625-78265A4CA1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9444226F-1E74-4DAB-9625-78265A4CA1EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9444226F-1E74-4DAB-9625-78265A4CA1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718D7E9F-2CE7-46B9-937E-902108561B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718D7E9F-2CE7-46B9-937E-902108561B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718D7E9F-2CE7-46B9-937E-902108561B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718D7E9F-2CE7-46B9-937E-902108561B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal

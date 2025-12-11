@@ -214,5 +214,14 @@ namespace Poryecto_final
 			frmBolea.MdiParent = this;
 			frmBolea.Show();
 		}
+		
+		void EmpleadosToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			CerrarVentanas();
+			
+			evaluacion3.MainForm f = new evaluacion3.MainForm();
+			f.MdiParent = this;
+			f.Show();
+		}
 	}
 }

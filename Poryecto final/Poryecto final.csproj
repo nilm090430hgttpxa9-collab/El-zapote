@@ -186,6 +186,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Downloads\evaluacion3\evaluacion3\evaluacion3.csproj">
+      <Project>{718D7E9F-2CE7-46B9-937E-902108561B41}</Project>
+      <Name>evaluacion3</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\MAXIMUS\principal\Boleta\Boleta\Boleta.csproj">
       <Project>{9444226F-1E74-4DAB-9625-78265A4CA1EC}</Project>
       <Name>Boleta</Name>
