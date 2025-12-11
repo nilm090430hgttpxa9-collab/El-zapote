@@ -228,7 +228,7 @@ namespace Poryecto_final
 		{
 			CerrarVentanas();
 			
-			CHICLES.MainForm f = new CHICLES.MainForm();
+			CHICLES.frmPostres f = new CHICLES.frmPostres();
 			f.MdiParent = this;
 			f.Show();
 		}
