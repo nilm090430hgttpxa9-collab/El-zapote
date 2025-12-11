@@ -130,6 +130,7 @@ namespace evaluacion3
 		{
         pbfoto.Image = null;			
 		}
-}
+		
+	}
 }
     

@@ -68,7 +68,7 @@ namespace evaluacion3
 			// dgvEmpleados
 			// 
 			this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dgvEmpleados.Location = new System.Drawing.Point(203, 331);
+			this.dgvEmpleados.Location = new System.Drawing.Point(199, 366);
 			this.dgvEmpleados.Name = "dgvEmpleados";
 			this.dgvEmpleados.RowTemplate.Height = 28;
 			this.dgvEmpleados.Size = new System.Drawing.Size(720, 150);
@@ -84,16 +84,16 @@ namespace evaluacion3
 			// pbfoto
 			// 
 			this.pbfoto.Image = ((System.Drawing.Image)(resources.GetObject("pbfoto.Image")));
-			this.pbfoto.Location = new System.Drawing.Point(829, 12);
+			this.pbfoto.Location = new System.Drawing.Point(806, 47);
 			this.pbfoto.Name = "pbfoto";
-			this.pbfoto.Size = new System.Drawing.Size(227, 200);
+			this.pbfoto.Size = new System.Drawing.Size(287, 222);
 			this.pbfoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.pbfoto.TabIndex = 80;
 			this.pbfoto.TabStop = false;
 			// 
 			// btnquitar
 			// 
-			this.btnquitar.Location = new System.Drawing.Point(939, 243);
+			this.btnquitar.Location = new System.Drawing.Point(939, 293);
 			this.btnquitar.Name = "btnquitar";
 			this.btnquitar.Size = new System.Drawing.Size(130, 32);
 			this.btnquitar.TabIndex = 79;
@@ -103,7 +103,7 @@ namespace evaluacion3
 			// 
 			// btnactualizar
 			// 
-			this.btnactualizar.Location = new System.Drawing.Point(806, 240);
+			this.btnactualizar.Location = new System.Drawing.Point(806, 293);
 			this.btnactualizar.Name = "btnactualizar";
 			this.btnactualizar.Size = new System.Drawing.Size(127, 32);
 			this.btnactualizar.TabIndex = 78;
@@ -125,6 +125,7 @@ namespace evaluacion3
 			// 
 			this.groupBox1.Controls.Add(this.rbContrato);
 			this.groupBox1.Controls.Add(this.rbRegular);
+			this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.groupBox1.Location = new System.Drawing.Point(56, 225);
 			this.groupBox1.Name = "groupBox1";
 			this.groupBox1.Size = new System.Drawing.Size(291, 100);
@@ -154,6 +155,7 @@ namespace evaluacion3
 			// 
 			// lblsexo
 			// 
+			this.lblsexo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.lblsexo.Location = new System.Drawing.Point(27, 189);
 			this.lblsexo.Name = "lblsexo";
 			this.lblsexo.Size = new System.Drawing.Size(89, 23);
@@ -187,7 +189,8 @@ namespace evaluacion3
 			// 
 			// lblpuesto
 			// 
-			this.lblpuesto.Location = new System.Drawing.Point(12, 115);
+			this.lblpuesto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+			this.lblpuesto.Location = new System.Drawing.Point(27, 115);
 			this.lblpuesto.Name = "lblpuesto";
 			this.lblpuesto.Size = new System.Drawing.Size(77, 23);
 			this.lblpuesto.TabIndex = 72;
@@ -209,6 +212,7 @@ namespace evaluacion3
 			// 
 			// lblparcial3
 			// 
+			this.lblparcial3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.lblparcial3.Location = new System.Drawing.Point(22, 158);
 			this.lblparcial3.Name = "lblparcial3";
 			this.lblparcial3.Size = new System.Drawing.Size(211, 23);
@@ -217,7 +221,8 @@ namespace evaluacion3
 			// 
 			// lblparcial2
 			// 
-			this.lblparcial2.Location = new System.Drawing.Point(17, 34);
+			this.lblparcial2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+			this.lblparcial2.Location = new System.Drawing.Point(27, 34);
 			this.lblparcial2.Name = "lblparcial2";
 			this.lblparcial2.Size = new System.Drawing.Size(204, 23);
 			this.lblparcial2.TabIndex = 68;
@@ -225,7 +230,8 @@ namespace evaluacion3
 			// 
 			// lblparcial1
 			// 
-			this.lblparcial1.Location = new System.Drawing.Point(10, 72);
+			this.lblparcial1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+			this.lblparcial1.Location = new System.Drawing.Point(27, 72);
 			this.lblparcial1.Name = "lblparcial1";
 			this.lblparcial1.Size = new System.Drawing.Size(223, 23);
 			this.lblparcial1.TabIndex = 67;
@@ -259,6 +265,7 @@ namespace evaluacion3
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(1201, 606);
 			this.Controls.Add(this.dgvEmpleados);
 			this.Controls.Add(this.dtpfecha);
