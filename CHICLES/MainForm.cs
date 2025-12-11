@@ -40,9 +40,9 @@ namespace CHICLES
             }
         }
 
-        // -----------------------------
+        // ----------------------------
         // Asignar precio según producto
-        // -----------------------------
+        // ----------------------------
         void CbProductosSelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbProductos.Text.Contains("1")) txtPrecio.Text = "5";
