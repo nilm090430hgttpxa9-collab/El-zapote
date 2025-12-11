@@ -49,49 +49,55 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(28, 34);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(85, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Base:";
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(28, 73);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(85, 23);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Altura:";
 			// 
 			// txtBase
 			// 
+			this.txtBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtBase.Location = new System.Drawing.Point(134, 34);
 			this.txtBase.Name = "txtBase";
-			this.txtBase.Size = new System.Drawing.Size(100, 22);
+			this.txtBase.Size = new System.Drawing.Size(100, 27);
 			this.txtBase.TabIndex = 2;
 			// 
 			// txtAltura
 			// 
+			this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtAltura.Location = new System.Drawing.Point(134, 74);
 			this.txtAltura.Name = "txtAltura";
-			this.txtAltura.Size = new System.Drawing.Size(100, 22);
+			this.txtAltura.Size = new System.Drawing.Size(100, 27);
 			this.txtAltura.TabIndex = 3;
 			// 
 			// lblResultado
 			// 
-			this.lblResultado.Location = new System.Drawing.Point(28, 127);
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblResultado.Location = new System.Drawing.Point(28, 125);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(233, 23);
 			this.lblResultado.TabIndex = 4;
 			this.lblResultado.Text = "Area:";
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
 			this.btnCalcular.Location = new System.Drawing.Point(86, 165);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 28);
+			this.btnCalcular.Size = new System.Drawing.Size(101, 28);
 			this.btnCalcular.TabIndex = 5;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;

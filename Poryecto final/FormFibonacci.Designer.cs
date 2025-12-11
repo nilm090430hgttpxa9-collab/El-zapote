@@ -44,6 +44,7 @@ namespace Poryecto_final
 			// 
 			// lblCantidad
 			// 
+			this.lblCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblCantidad.Location = new System.Drawing.Point(12, 35);
 			this.lblCantidad.Name = "lblCantidad";
 			this.lblCantidad.Size = new System.Drawing.Size(100, 23);
@@ -52,18 +53,20 @@ namespace Poryecto_final
 			// 
 			// txtCantidad
 			// 
+			this.txtCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtCantidad.Location = new System.Drawing.Point(118, 36);
 			this.txtCantidad.Name = "txtCantidad";
-			this.txtCantidad.Size = new System.Drawing.Size(100, 22);
+			this.txtCantidad.Size = new System.Drawing.Size(100, 27);
 			this.txtCantidad.TabIndex = 1;
 			// 
 			// btnGenerar
 			// 
-			this.btnGenerar.BackColor = System.Drawing.Color.Black;
+			this.btnGenerar.BackColor = System.Drawing.Color.Red;
+			this.btnGenerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnGenerar.ForeColor = System.Drawing.Color.White;
-			this.btnGenerar.Location = new System.Drawing.Point(98, 137);
+			this.btnGenerar.Location = new System.Drawing.Point(94, 142);
 			this.btnGenerar.Name = "btnGenerar";
-			this.btnGenerar.Size = new System.Drawing.Size(73, 30);
+			this.btnGenerar.Size = new System.Drawing.Size(100, 30);
 			this.btnGenerar.TabIndex = 3;
 			this.btnGenerar.Text = "Generar";
 			this.btnGenerar.UseVisualStyleBackColor = false;
@@ -71,6 +74,7 @@ namespace Poryecto_final
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(12, 79);
 			this.lblResultado.Name = "lblResultado";
 			this.lblResultado.Size = new System.Drawing.Size(258, 23);

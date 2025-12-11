@@ -44,34 +44,38 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(22, 26);
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(12, 27);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(119, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Kilogramos:";
 			// 
 			// txtKilogramos
 			// 
-			this.txtKilogramos.Location = new System.Drawing.Point(128, 27);
+			this.txtKilogramos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtKilogramos.Location = new System.Drawing.Point(137, 27);
 			this.txtKilogramos.Name = "txtKilogramos";
-			this.txtKilogramos.Size = new System.Drawing.Size(100, 22);
+			this.txtKilogramos.Size = new System.Drawing.Size(100, 27);
 			this.txtKilogramos.TabIndex = 1;
 			// 
 			// lblResultado
 			// 
-			this.lblResultado.Location = new System.Drawing.Point(22, 67);
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblResultado.Location = new System.Drawing.Point(12, 67);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(258, 23);
 			this.lblResultado.TabIndex = 2;
 			this.lblResultado.Text = "Libras:";
 			// 
 			// btnConvertir
 			// 
-			this.btnConvertir.BackColor = System.Drawing.Color.Black;
+			this.btnConvertir.BackColor = System.Drawing.Color.Red;
+			this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnConvertir.ForeColor = System.Drawing.Color.White;
-			this.btnConvertir.Location = new System.Drawing.Point(92, 123);
+			this.btnConvertir.Location = new System.Drawing.Point(83, 125);
 			this.btnConvertir.Name = "btnConvertir";
-			this.btnConvertir.Size = new System.Drawing.Size(75, 27);
+			this.btnConvertir.Size = new System.Drawing.Size(104, 27);
 			this.btnConvertir.TabIndex = 3;
 			this.btnConvertir.Text = "Convertir";
 			this.btnConvertir.UseVisualStyleBackColor = false;

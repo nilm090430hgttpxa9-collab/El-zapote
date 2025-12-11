@@ -46,45 +46,49 @@ namespace Poryecto_final
 			// label1
 			// 
 			this.label1.BackColor = System.Drawing.Color.Black;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(31, 33);
+			this.label1.Location = new System.Drawing.Point(12, 33);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(132, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Usuario:";
 			// 
 			// txtUsuario
 			// 
 			this.txtUsuario.BackColor = System.Drawing.Color.Black;
+			this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtUsuario.ForeColor = System.Drawing.Color.White;
-			this.txtUsuario.Location = new System.Drawing.Point(137, 33);
+			this.txtUsuario.Location = new System.Drawing.Point(150, 33);
 			this.txtUsuario.Name = "txtUsuario";
-			this.txtUsuario.Size = new System.Drawing.Size(100, 22);
+			this.txtUsuario.Size = new System.Drawing.Size(100, 27);
 			this.txtUsuario.TabIndex = 1;
 			// 
 			// label2
 			// 
 			this.label2.BackColor = System.Drawing.Color.Black;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(31, 67);
+			this.label2.Location = new System.Drawing.Point(14, 72);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(130, 23);
 			this.label2.TabIndex = 2;
 			this.label2.Text = "Contraseña:";
 			// 
 			// txtPassword
 			// 
 			this.txtPassword.BackColor = System.Drawing.Color.Black;
+			this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtPassword.ForeColor = System.Drawing.Color.White;
-			this.txtPassword.Location = new System.Drawing.Point(137, 68);
+			this.txtPassword.Location = new System.Drawing.Point(150, 68);
 			this.txtPassword.Name = "txtPassword";
-			this.txtPassword.Size = new System.Drawing.Size(100, 22);
+			this.txtPassword.Size = new System.Drawing.Size(100, 27);
 			this.txtPassword.TabIndex = 3;
 			// 
 			// btnIngresar
 			// 
 			this.btnIngresar.BackColor = System.Drawing.Color.Black;
-			this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnIngresar.ForeColor = System.Drawing.Color.White;
 			this.btnIngresar.Location = new System.Drawing.Point(39, 116);
 			this.btnIngresar.Name = "btnIngresar";

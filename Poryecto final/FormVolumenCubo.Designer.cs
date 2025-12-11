@@ -47,11 +47,12 @@ namespace Poryecto_final
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
 			this.btnCalcular.Location = new System.Drawing.Point(91, 105);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 28);
+			this.btnCalcular.Size = new System.Drawing.Size(92, 28);
 			this.btnCalcular.TabIndex = 0;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;
@@ -59,6 +60,7 @@ namespace Poryecto_final
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(31, 26);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -67,6 +69,7 @@ namespace Poryecto_final
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(31, 60);
 			this.lblResultado.Name = "lblResultado";
 			this.lblResultado.Size = new System.Drawing.Size(206, 23);
@@ -75,9 +78,10 @@ namespace Poryecto_final
 			// 
 			// txtLado
 			// 
+			this.txtLado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtLado.Location = new System.Drawing.Point(137, 27);
 			this.txtLado.Name = "txtLado";
-			this.txtLado.Size = new System.Drawing.Size(100, 22);
+			this.txtLado.Size = new System.Drawing.Size(100, 27);
 			this.txtLado.TabIndex = 3;
 			// 
 			// pictureBox1

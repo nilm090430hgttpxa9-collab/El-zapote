@@ -44,11 +44,12 @@ namespace Poryecto_final
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.BackColor = System.Drawing.Color.Black;
+			this.btnCalcular.BackColor = System.Drawing.Color.Red;
+			this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalcular.ForeColor = System.Drawing.Color.White;
-			this.btnCalcular.Location = new System.Drawing.Point(111, 182);
+			this.btnCalcular.Location = new System.Drawing.Point(100, 149);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 28);
+			this.btnCalcular.Size = new System.Drawing.Size(92, 28);
 			this.btnCalcular.TabIndex = 0;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = false;
@@ -56,24 +57,29 @@ namespace Poryecto_final
 			// 
 			// la
 			// 
+			this.la.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.la.ForeColor = System.Drawing.Color.Black;
 			this.la.Location = new System.Drawing.Point(44, 56);
 			this.la.Name = "la";
-			this.la.Size = new System.Drawing.Size(100, 23);
+			this.la.Size = new System.Drawing.Size(102, 23);
 			this.la.TabIndex = 1;
 			this.la.Text = "Numero:";
 			// 
 			// txtNumero
 			// 
+			this.txtNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtNumero.Location = new System.Drawing.Point(150, 56);
 			this.txtNumero.Name = "txtNumero";
-			this.txtNumero.Size = new System.Drawing.Size(100, 22);
+			this.txtNumero.Size = new System.Drawing.Size(102, 27);
 			this.txtNumero.TabIndex = 2;
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblResultado.ForeColor = System.Drawing.Color.Black;
 			this.lblResultado.Location = new System.Drawing.Point(44, 103);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(206, 23);
+			this.lblResultado.Size = new System.Drawing.Size(229, 23);
 			this.lblResultado.TabIndex = 4;
 			this.lblResultado.Text = "Resultado:";
 			// 
@@ -82,7 +88,7 @@ namespace Poryecto_final
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Gray;
-			this.ClientSize = new System.Drawing.Size(296, 242);
+			this.ClientSize = new System.Drawing.Size(296, 203);
 			this.Controls.Add(this.lblResultado);
 			this.Controls.Add(this.txtNumero);
 			this.Controls.Add(this.la);
