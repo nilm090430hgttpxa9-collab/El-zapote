@@ -194,6 +194,10 @@
       <Project>{9444226F-1E74-4DAB-9625-78265A4CA1EC}</Project>
       <Name>Boleta</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\CHICLES\CHICLES\CHICLES.csproj">
+      <Project>{A30BC44B-C074-4E31-945B-9B513D03AAEA}</Project>
+      <Name>CHICLES</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

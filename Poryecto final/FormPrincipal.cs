@@ -223,5 +223,14 @@ namespace Poryecto_final
 			f.MdiParent = this;
 			f.Show();
 		}
+		
+		void ToolStripMenuItem1Click(object sender, EventArgs e)
+		{
+			CerrarVentanas();
+			
+			CHICLES.frmPostres f = new CHICLES.frmPostres();
+			f.MdiParent = this;
+			f.Show();
+		}
 	}
 }

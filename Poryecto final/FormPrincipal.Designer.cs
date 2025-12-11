@@ -61,13 +61,14 @@ namespace Poryecto_final
 			this.tiempoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.segundosHorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.boletaDeCalificasionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+			this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.archivoSalirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.maximusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.alejandroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.alexisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -82,12 +83,13 @@ namespace Poryecto_final
 									this.volumenToolStripMenuItem,
 									this.conversionesToolStripMenuItem,
 									this.boletaDeCalificasionesToolStripMenuItem,
+									this.toolStripMenuItem1,
 									this.empleadosToolStripMenuItem,
 									this.archivoSalirToolStripMenuItem,
 									this.aToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(1137, 31);
+			this.menuStrip1.Size = new System.Drawing.Size(1299, 31);
 			this.menuStrip1.TabIndex = 1;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -279,6 +281,20 @@ namespace Poryecto_final
 			this.boletaDeCalificasionesToolStripMenuItem.Text = "Boleta de calificasiones";
 			this.boletaDeCalificasionesToolStripMenuItem.Click += new System.EventHandler(this.BoletaDeCalificasionesToolStripMenuItemClick);
 			// 
+			// toolStripMenuItem1
+			// 
+			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+			this.toolStripMenuItem1.Size = new System.Drawing.Size(161, 27);
+			this.toolStripMenuItem1.Text = "Postres(Pasteleria)";
+			this.toolStripMenuItem1.Click += new System.EventHandler(this.ToolStripMenuItem1Click);
+			// 
+			// empleadosToolStripMenuItem
+			// 
+			this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
+			this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(105, 27);
+			this.empleadosToolStripMenuItem.Text = "Empleados";
+			this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.EmpleadosToolStripMenuItemClick);
+			// 
 			// archivoSalirToolStripMenuItem
 			// 
 			this.archivoSalirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -327,19 +343,12 @@ namespace Poryecto_final
 			this.alexisToolStripMenuItem.Text = "Alexis :)";
 			this.alexisToolStripMenuItem.Click += new System.EventHandler(this.AlexisToolStripMenuItemClick);
 			// 
-			// empleadosToolStripMenuItem
-			// 
-			this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-			this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(105, 27);
-			this.empleadosToolStripMenuItem.Text = "Empleados";
-			this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.EmpleadosToolStripMenuItemClick);
-			// 
 			// FormPrincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Gray;
-			this.ClientSize = new System.Drawing.Size(1137, 506);
+			this.ClientSize = new System.Drawing.Size(1299, 645);
 			this.Controls.Add(this.menuStrip1);
 			this.IsMdiContainer = true;
 			this.MainMenuStrip = this.menuStrip1;
@@ -351,6 +360,7 @@ namespace Poryecto_final
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
 		private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem boletaDeCalificasionesToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem alexisToolStripMenuItem;
